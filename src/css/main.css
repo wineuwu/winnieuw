@@ -1,0 +1,42 @@
+@import 'global.css';
+@import 'variable.css';
+@import 'prism-theme.css';
+@import 'typography.css';
+@import 'post-list.css';
+@import 'hero.css';
+@import 'header.css';
+@import 'footer.css';
+@import 'post.css';
+@import 'about.css';
+@import 'portfolio.css';
+
+.layout-wrapper {
+  width: 100%;
+  margin: auto;
+  display: grid;
+  grid-template-rows: auto minmax(0, 1fr) auto;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  max-width: 780px;
+  width:100%;
+  margin:8.1rem auto ;
+ 
+}
+
+@media screen and (max-width:768px) { 
+  body{
+    font-size: 16px;
+  }
+  .main{
+    
+    max-width: 768px;
+    padding: 0 25px;
+  }
+}
+
+
+
+

@@ -1,0 +1,9 @@
+<ul class="portfilo-list">
+  {% for post in postslist | reverse %}
+    <li class="portfilo-lists__item">
+      <a href="{{ post.url }}">
+        <img src="{{ post.data.coverImg }}">
+      </a>
+    </li>
+  {% endfor %}
+</ul>

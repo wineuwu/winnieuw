@@ -1,0 +1,21 @@
+---
+layout: base.njk
+---
+
+<div class="portfolio">
+    <header class="post__header">
+    <h1>{{ title }}</h1>
+    <div class="post__details">
+      <time datetime="{{ page.date | htmlDateString }}">
+        {{ page.date | readableDate }}
+      </time>
+      <span> | </span>
+      <span>{{ content | readingTime }} read</span>
+    </div>
+  </header>
+  <img src="{{ coverImg }}" alt="" class="about__image">
+  {{ content | safe }}
+  <p>
+    {{ description }}
+  </p>
+</div>

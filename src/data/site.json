@@ -1,0 +1,57 @@
+{
+  "name": "WINNIE WU",
+  "description": "Hi WINNIE",
+  "url": "https://eleventyduo.netlify.app",
+  "logo": "/images/logo.png",
+  "author": {
+    "name": "Winnie Wu",
+    "email": "asgh03226@gmail.com",
+    "twitterHandle": "author_handle"
+  },
+  "defaultSocialImage": "",
+  "headerLinks": [
+    {
+      "text": "ABOUT",
+      "url": "/about",
+      "external": false
+    },
+    {
+      "text": "PROJECT",
+      "url": "/portfolio",
+      "external": false
+    },
+    {
+      "text": "BLOG",
+      "url": "/blog",
+      "external": false
+    },
+    {
+      "text": "SLIDES",
+      "url": "/slides",
+      "external": false
+    }
+  ],
+  "socialLinks": [
+    {
+      "text": "Linkedin",
+      "url": "www.linkedin.com/in/wukaiwan",
+      "iconsUrl": "/images/linkedin.svg",
+      "external": true
+    },
+    {
+      "text": "GitHub",
+      "iconsUrl": "/images/github.svg",
+      "url": "https://github.com/wineuwu",
+      "external": true
+    }
+  ],
+  "footerLinks": [
+    {
+      "text": "RSS",
+      "iconsUrl": "/images/rss.svg",
+      "url": "/feed.xml",
+      "external": true
+    }
+  ],
+  "showFooterAttribution": false
+}
