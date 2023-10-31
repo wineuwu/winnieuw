@@ -9,6 +9,8 @@
 @import 'post.css';
 @import 'about.css';
 @import 'portfolio.css';
+@import 'slides.css';
+
 
 .layout-wrapper {
   width: 100%;
