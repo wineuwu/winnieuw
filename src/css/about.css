@@ -1,6 +1,7 @@
-.about{
-  height: 100%;
+.about {
+  padding-top: 300px;
 }
+
 .about h1 {
   margin-bottom: 2rem;
 }
