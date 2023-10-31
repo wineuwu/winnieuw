@@ -70,4 +70,8 @@
     max-width: 768px;
     padding: 0px 25px;
   }
+
+  .slide-image-list {
+    justify-content: center;
+  }
 }
