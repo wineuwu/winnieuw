@@ -1,5 +1,6 @@
 .about {
-  padding-top: 300px;
+  display: flex;
+  align-items: center;
 }
 
 .about h1 {

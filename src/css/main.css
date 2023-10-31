@@ -21,9 +21,10 @@
 
 .main {
   display: flex;
+  padding-top: 130px;
   flex-direction: column;
   max-width: 780px;
-  min-height: 100vh;
+  min-height: 95vh;
   width:100%;
   margin:0 auto ;
 }
