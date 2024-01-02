@@ -27,6 +27,7 @@
   min-height: 95vh;
   width:100%;
   margin:0 auto ;
+
 }
 
 @media screen and (max-width:768px) { 
@@ -36,7 +37,7 @@
   .main{
     
     max-width: 768px;
-    padding: 0 25px;
+    padding: 10rem 25px;
   }
 }
 
