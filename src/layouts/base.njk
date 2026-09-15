@@ -19,12 +19,12 @@
       {% endif %}
     </title>
 
-    <link rel="icon" type= “image/x-icon” href="/images/favicon.ico">
+    <link rel="icon" type= “image/x-icon” href="{{ '/images/favicon.ico' | url }}">
 
     <meta property="og:title" content="{{  title or site.name | escape }}">
     <meta property="og:site_name" content="{{ site.name }}"/>
     <meta property="og:type" content="website"/>
-    <meta property="og:url" content="{{ site.url + page.url }}"/>
+    <meta property="og:url" content="{{ page.url | url | absoluteUrl(site.url) }}"/>
     <meta name="twitter:card" content="summary_large_image">
 
     {% if site.author.twitterHandle %}
@@ -60,7 +60,7 @@
         <div class="header__content">
           <h1 class="site-title">
             <a class="site-logo" href={{ "/" | url }}>
-              <img class="width:100%; height:100%;" src={{ site.logo }} alt="{{site.name}}">
+              <img class="width:100%; height:100%;" src="{{ site.logo | url }}" alt="{{site.name}}">
               <span>{{site.name}}</span>
             </a>
           </h1>
@@ -90,7 +90,7 @@
                   {% endif %}
                   <li class="exter-btn">
                     <a class="m-icons" href="{{ item.url | url }}" {{ externalAttribute | safe }}>
-                      <img  style="width:30px; height:30px;" src="{{ item.iconsUrl }}" alt="{{ item.text }}">
+                      <img  style="width:30px; height:30px;" src="{{ item.iconsUrl | url }}" alt="{{ item.text }}">
                     </a>
                   </li>
                 {% endfor %}

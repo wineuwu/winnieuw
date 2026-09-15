@@ -53,7 +53,7 @@ module.exports = {
   },
 
   plugins: [
-    new WebpackManifestPlugin({ publicPath: '/assets/' }),
+    new WebpackManifestPlugin({ publicPath: '/winnieuw/assets/' }),
     new MiniCssExtractPlugin({ filename: `${baseFilename}.css` }),
   ],
 };

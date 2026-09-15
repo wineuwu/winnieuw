@@ -14,8 +14,8 @@ layout: base
  <h2 class="post-list__heading">近期作品</h2>
   <div class="portfilo-container">
     {% for portfolio in collections.portfolios | head(-4) %}
-      <a class="home-portfolio-item" href="{{ portfolio.url }}">
-      <img src="{{ portfolio.data.coverImg }}">
+      <a class="home-portfolio-item" href="{{ portfolio.url | url }}">
+      <img src="{{ portfolio.data.coverImg | url }}">
     </a>
     {% endfor %} 
   </div>

@@ -13,7 +13,7 @@ layout: base.njk
       <span>{{ content | readingTime }} read</span>
     </div>
   </header>
-  <img src="{{ coverImg }}" alt="" class="about__image">
+  <img src="{{ coverImg | url }}" alt="" class="about__image">
   {{ content | safe }}
   <p>
     {{ description }}

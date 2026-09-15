@@ -1,0 +1,5 @@
+# 本專案未使用 eleventy-img/sharp，這些安裝腳本一律不執行
+allowBuilds:
+  core-js: false
+  ejs: false
+  sharp: false
