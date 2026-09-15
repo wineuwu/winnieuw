@@ -43,10 +43,7 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.setBrowserSyncConfig({ files: [manifestPath] });
   
-  // slides
-  eleventyConfig.addPassthroughCopy("src/slides/**");
 
-  eleventyConfig.addPassthroughCopy("_redirects");
   
   eleventyConfig.addShortcode('bundledcss', function () {
     return manifest['main.css']
@@ -143,6 +140,7 @@ module.exports = function (eleventyConfig) {
   });
 
   return {
+    pathPrefix: '/winnieuw/',
     dir: {
       input: 'src',
       output: 'public',
